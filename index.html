@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090711">
+
+  <title>For My Bestie 💖</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Background -->
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+
+  <div class="stars"></div>
+  <div class="floating-hearts" id="floatingHearts"></div>
+
+  <!-- ============================= -->
+  <!-- BACKGROUND MUSIC -->
+  <!-- ============================= -->
+
+  <audio id="bgMusic" loop preload="auto">
+    <source src="music/bestie-song.mp3" type="audio/mpeg">
+  </audio>
+
+  <!-- Music Button -->
+  <button
+    class="sound-btn"
+    id="soundBtn"
+    aria-label="Toggle background music"
+  >
+    ♪
+  </button>
+
+
+  <!-- ============================= -->
+  <!-- MAIN EXPERIENCE -->
+  <!-- ============================= -->
+
+  <main id="experience">
+
+    <!-- HERO -->
+    <section class="hero">
+
+      <div class="hero-card">
+
+        <div class="eyebrow">
+          A LITTLE SURPRISE FOR YOU ✨
+        </div>
+
+        <div class="mini-photo">
+          <img
+            src="photos/photo1.jpg"
+            alt="A special memory"
+          >
+        </div>
+
+        <h1>
+          For My
+          <span>Bestie</span>
+        </h1>
+
+        <p class="hero-copy">
+          Some memories become special because of the place.
+          Others become special because of the person standing beside you.
+        </p>
+
+        <button
+          class="primary-btn"
+          id="openBtn"
+        >
+          Open Your Surprise
+          <span>💌</span>
+        </button>
+
+        <p class="hint">
+          Tap the button and let the memories begin ↓
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- STORY -->
+    <!-- ============================= -->
+
+    <section
+      class="reveal-section"
+      id="story"
+    >
+
+      <div class="content-width center">
+
+        <div class="section-kicker">
+          OUR LITTLE WORLD
+        </div>
+
+        <h2>
+          Four photos.
+          <br>
+          <span>A thousand memories.</span>
+        </h2>
+
+        <p class="lead">
+          There are moments you remember because they were perfect,
+          and then there are moments you remember simply because
+          you were with the right person.
+        </p>
+
+        <div class="quote">
+          “The best memories are the ones we didn't plan.”
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- PHOTO GALLERY -->
+    <!-- ============================= -->
+
+    <section
+      class="gallery-section reveal-section"
+      id="memories"
+    >
+
+      <div class="content-width">
+
+        <div class="section-kicker center">
+          📸 OUR MEMORIES
+        </div>
+
+        <h2 class="center">
+          A few moments I'll
+          <span>always keep</span>
+        </h2>
+
+
+        <div class="memory-grid">
+
+
+          <!-- PHOTO 1 -->
+
+          <article class="memory-card memory-large">
+
+            <div class="photo-wrap">
+
+              <img
+                src="photos/photo1.jpg"
+                alt="Memory of us together"
+                loading="lazy"
+              >
+
+              <div class="photo-shine"></div>
+
+            </div>
+
+            <div class="memory-info">
+
+              <span>01</span>
+
+              <h3>
+                One of my favorites 💕
+              </h3>
+
+              <p>
+                Just us, exactly as we are.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- PHOTO 2 -->
+
+          <article class="memory-card">
+
+            <div class="photo-wrap">
+
+              <img
+                src="photos/photo2.jpg"
+                alt="A beautiful memory"
+                loading="lazy"
+              >
+
+              <div class="photo-shine"></div>
+
+            </div>
+
+            <div class="memory-info">
+
+              <span>02</span>
+
+              <h3>
+                That smile ✨
+              </h3>
+
+              <p>
+                A moment worth remembering.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- PHOTO 3 -->
+
+          <article class="memory-card">
+
+            <div class="photo-wrap">
+
+              <img
+                src="photos/photo3.jpg"
+                alt="A close-up memory"
+                loading="lazy"
+              >
+
+              <div class="photo-shine"></div>
+
+            </div>
+
+            <div class="memory-info">
+
+              <span>03</span>
+
+              <h3>
+                Simply you 🌸
+              </h3>
+
+              <p>
+                Beautiful without even trying.
+              </p>
+
+            </div>
+
+          </article>
+
+
+          <!-- PHOTO 4 -->
+
+          <article class="memory-card memory-wide">
+
+            <div class="photo-wrap">
+
+              <img
+                src="photos/photo4.jpg"
+                alt="A special memory"
+                loading="lazy"
+              >
+
+              <div class="photo-shine"></div>
+
+            </div>
+
+            <div class="memory-info">
+
+              <span>04</span>
+
+              <h3>
+                One more memory 💗
+              </h3>
+
+              <p>
+                Even ordinary moments can become unforgettable.
+              </p>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- LETTER -->
+    <!-- ============================= -->
+
+    <section
+      class="letter-section reveal-section"
+      id="letter"
+    >
+
+      <div class="letter">
+
+        <div class="seal">
+          💖
+        </div>
+
+        <div class="section-kicker">
+          A LETTER FOR YOU
+        </div>
+
+        <h2>
+          Dear
+          <span>Bestie...</span>
+        </h2>
+
+
+        <div class="letter-body">
+
+          <p>
+            I don't always say it, but I hope you know how much
+            your presence means to me.
+          </p>
+
+          <p>
+            Thank you for the random conversations, the laughs,
+            the silly moments, the memories, and all those little
+            things that somehow become the moments we remember most.
+          </p>
+
+          <p>
+            Life keeps changing, people keep growing, and our paths
+            may take us to different places. But I hope we never lose
+            the friendship and the comfort of being ourselves around
+            each other.
+          </p>
+
+          <p class="emphasis">
+            Wherever life takes us, I'll always be grateful that
+            our paths crossed. 🥹💗
+          </p>
+
+          <p class="signature">
+            — Your forever annoying bestie 😌
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ============================= -->
+    <!-- SURPRISE -->
+    <!-- ============================= -->
+
+    <section
+      class="surprise-section reveal-section"
+      id="surprise"
+    >
+
+      <div class="surprise-box">
+
+        <div class="gift">
+          🎁
+        </div>
+
+        <div class="section-kicker">
+          ONE LAST THING
+        </div>
+
+        <h2>
+          Ready for the
+          <span>final surprise?</span>
+        </h2>
+
+        <p>
+          Okay... maybe this is a little dramatic.
+          But you deserve it. 😌
+        </p>
+
+        <button
+          class="primary-btn"
+          id="surpriseBtn"
+        >
+          Open It
+          <span>🎀</span>
+        </button>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ============================= -->
+  <!-- FINAL SCREEN -->
+  <!-- ============================= -->
+
+  <section
+    class="final-screen"
+    id="finalScreen"
+  >
+
+    <div class="final-inner">
+
+      <div class="final-heart">
+        💖
+      </div>
+
+      <div class="section-kicker">
+        JUST SO YOU KNOW
+      </div>
+
+      <h1>
+        You're
+        <span>irreplaceable.</span>
+      </h1>
+
+      <p class="final-line">
+        Best friends today. Tomorrow. Always.
+      </p>
+
+      <p class="tiny-line">
+        Never forget how special you are. ✨
+      </p>
+
+      <button
+        class="outline-btn"
+        id="replayBtn"
+      >
+        ↻ Start Again
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- Confetti -->
+  <div
+    class="confetti"
+    id="confetti"
+  ></div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
